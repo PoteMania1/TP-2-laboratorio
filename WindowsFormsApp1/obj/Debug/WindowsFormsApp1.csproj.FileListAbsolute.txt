@@ -1,0 +1,10 @@
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Catalogo.resources
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

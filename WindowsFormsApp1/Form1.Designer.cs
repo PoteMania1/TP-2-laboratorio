@@ -1,7 +1,7 @@
 ﻿
 namespace WindowsFormsApp1
 {
-    partial class Form1
+    partial class Catalogo
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -29,13 +29,34 @@ namespace WindowsFormsApp1
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.dgv_articulo = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_articulo)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dgv_articulo
+            // 
+            this.dgv_articulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_articulo.Location = new System.Drawing.Point(41, 50);
+            this.dgv_articulo.Name = "dgv_articulo";
+            this.dgv_articulo.Size = new System.Drawing.Size(452, 263);
+            this.dgv_articulo.TabIndex = 0;
+            // 
+            // Catalogo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.dgv_articulo);
+            this.Name = "Catalogo";
+            this.Text = "Catalogo";
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_articulo)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView dgv_articulo;
     }
 }
 
