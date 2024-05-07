@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace acceso_a_datos
 {
-    class AccesoDatos
+    public class AccesoDatos
     {
         private SqlConnection conexion;
         private SqlCommand comando;
