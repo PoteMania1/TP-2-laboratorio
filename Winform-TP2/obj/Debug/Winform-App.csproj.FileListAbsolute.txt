@@ -1,7 +1,0 @@
-C:\Users\mauri\source\repos\Winform-TP2\bin\Debug\Winform-TP2.exe.config
-C:\Users\mauri\source\repos\Winform-TP2\bin\Debug\Winform-TP2.exe
-C:\Users\mauri\source\repos\Winform-TP2\bin\Debug\Winform-TP2.pdb
-C:\Users\mauri\source\repos\Winform-TP2\obj\Debug\Winform-App.csproj.AssemblyReference.cache
-C:\Users\mauri\source\repos\Winform-TP2\obj\Debug\Winform-App.csproj.CoreCompileInputs.cache
-C:\Users\mauri\source\repos\Winform-TP2\obj\Debug\Winform-TP2.exe
-C:\Users\mauri\source\repos\Winform-TP2\obj\Debug\Winform-TP2.pdb

@@ -1,0 +1,6 @@
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\Dominio\bin\Debug\Dominio.dll
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\Dominio\bin\Debug\Dominio.pdb
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\Dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\Dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\Dominio\obj\Debug\Dominio.dll
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\Dominio\obj\Debug\Dominio.pdb
