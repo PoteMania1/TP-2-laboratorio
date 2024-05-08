@@ -15,3 +15,4 @@ C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\
 C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\negocio.pdb
 C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\acceso-a-datos.pdb
 C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.frmArticulos.resources
