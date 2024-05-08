@@ -1,0 +1,6 @@
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\acceso-a-datos\bin\Debug\acceso-a-datos.dll
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\acceso-a-datos\bin\Debug\acceso-a-datos.pdb
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\acceso-a-datos\obj\Debug\acceso-a-datos.csproj.AssemblyReference.cache
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\acceso-a-datos\obj\Debug\acceso-a-datos.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\acceso-a-datos\obj\Debug\acceso-a-datos.dll
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\acceso-a-datos\obj\Debug\acceso-a-datos.pdb

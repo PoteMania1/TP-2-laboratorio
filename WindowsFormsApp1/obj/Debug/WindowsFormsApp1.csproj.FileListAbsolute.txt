@@ -8,3 +8,10 @@ C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\
 C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\Dominio.dll
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\negocio.dll
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\acceso-a-datos.dll
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\Dominio.pdb
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\negocio.pdb
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\bin\Debug\acceso-a-datos.pdb
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete

@@ -1,0 +1,11 @@
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\negocio\bin\Debug\negocio.dll
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\negocio\bin\Debug\negocio.pdb
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\negocio\bin\Debug\acceso-a-datos.dll
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\negocio\bin\Debug\Dominio.dll
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\negocio\bin\Debug\acceso-a-datos.pdb
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\negocio\bin\Debug\Dominio.pdb
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\negocio\obj\Debug\negocio.csproj.AssemblyReference.cache
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\negocio\obj\Debug\negocio.dll
+C:\Users\mauri\OneDrive\Escritorio\TP 2 PROGRAMACION\negocio\obj\Debug\negocio.pdb

@@ -49,6 +49,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.dgv_articulo);
             this.Name = "Catalogo";
             this.Text = "Catalogo";
+            this.Load += new System.EventHandler(this.Catalogo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_articulo)).EndInit();
             this.ResumeLayout(false);
 
