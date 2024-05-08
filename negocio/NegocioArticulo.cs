@@ -18,19 +18,18 @@ namespace negocio
 
             try
             {
-                datos.SetearConsulta("SELECT Id, Codigo, Nombre, Descripcion, Precio FROM ARTICULOS");
+                datos.SetearConsulta("SELECT Id, Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio FROM ARTICULOS");
                 datos.EjecutarLectura();
 
                 while (datos.Lector.Read())
                 {
                     Articulo aux = new Articulo();
                     aux.Id = (int)datos.Lector["Id"];
-                    //aux.IdMarca = (int)datos.Lector["IdMarca"];
-                    //aux.IdCategoria = (int)datos.Lector["IdCategoria"];
                     aux.Codigo = (string)datos.Lector["Codigo"];
                     aux.Nombre = (string)datos.Lector["Nombre"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
-                    //aux.UrlImagen = (string)datos.Lector["UrlImagen"];
+                    aux.IdMarca = (int)datos.Lector["IdMarca"];
+                    aux.IdCategoria = (int)datos.Lector["IdCategoria"];
                     aux.Precio = (Decimal)datos.Lector["Precio"];
 
                     lista.Add(aux);
