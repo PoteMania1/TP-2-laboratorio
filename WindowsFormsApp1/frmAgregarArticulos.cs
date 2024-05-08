@@ -32,11 +32,11 @@ namespace WindowsFormsApp1
             {
                 art.Id = int.Parse(tbId.Text);
                 art.Codigo = tbCodigo.Text;
-                art.Nombre = tbNombre.Text;
+                //art.Nombre = tbNombre.Text;
                 art.Descripcion = tbDescripcion.Text;
                 art.IdMarca = int.Parse(tbIdMarca.Text);
                 art.IdCategoria = int.Parse(tbIdCategoria.Text);
-                art.UrlImagen = tbUrlImagen.Text;
+                //art.UrlImagen = tbUrlImagen.Text;
                 art.Precio = decimal.Parse(tbPrecio.Text);
 
                 neg.Agregar(art);
@@ -46,7 +46,7 @@ namespace WindowsFormsApp1
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString());
+                throw ex;
             }
         }
     }

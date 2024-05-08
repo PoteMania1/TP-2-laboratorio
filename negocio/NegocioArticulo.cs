@@ -26,7 +26,7 @@ namespace negocio
                     Articulo aux = new Articulo();
                     aux.Id = (int)datos.Lector["Id"];
                     aux.Codigo = (string)datos.Lector["Codigo"];
-                    aux.Nombre = (string)datos.Lector["Nombre"];
+                    //aux.Nombre = (string)datos.Lector["Nombre"];
                     aux.Descripcion = (string)datos.Lector["Descripcion"];
                     aux.IdMarca = (int)datos.Lector["IdMarca"];
                     aux.IdCategoria = (int)datos.Lector["IdCategoria"];
@@ -53,10 +53,10 @@ namespace negocio
             AccesoDatos datos = new AccesoDatos();
 
             try{
-                datos.SetearConsulta("Insert into Articulos (Id, Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio)values(@Id, @Codigo, @Nombre, @Descripcion, @IdMarca, @IdCategoria, @Precio)");
+                datos.SetearConsulta("insert into ARTICULOS values(@Id, @Codigo, @Descripcion, @IdMarca, @IdCategoria, @Precio)");
                 datos.SetearParametro("@Id",nuevo.Id);
                 datos.SetearParametro("@Codigo",nuevo.Codigo);
-                datos.SetearParametro("@Nombre",nuevo.Nombre);
+                //datos.SetearParametro("@Nombre",nuevo.Nombre);
                 datos.SetearParametro("@Descripcion",nuevo.Descripcion);
                 datos.SetearParametro("@IdMarca",nuevo.IdMarca);
                 datos.SetearParametro("@IdCategoria",nuevo.IdCategoria);
