@@ -46,6 +46,8 @@ namespace WindowsFormsApp1
             this.tbIdCategoria = new System.Windows.Forms.TextBox();
             this.tbUrlImagen = new System.Windows.Forms.TextBox();
             this.tbPrecio = new System.Windows.Forms.TextBox();
+            this.btnAceptar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pbUrlImagen)).BeginInit();
             this.SuspendLayout();
             // 
@@ -185,9 +187,31 @@ namespace WindowsFormsApp1
             this.tbPrecio.Size = new System.Drawing.Size(124, 20);
             this.tbPrecio.TabIndex = 16;
             // 
+            // btnAceptar
+            // 
+            this.btnAceptar.Location = new System.Drawing.Point(100, 408);
+            this.btnAceptar.Name = "btnAceptar";
+            this.btnAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btnAceptar.TabIndex = 17;
+            this.btnAceptar.Text = "Aceptar";
+            this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
+            // 
+            // btnCancelar
+            // 
+            this.btnCancelar.Location = new System.Drawing.Point(225, 408);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btnCancelar.TabIndex = 18;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
             // frmAgregarArticulos
             // 
             this.ClientSize = new System.Drawing.Size(433, 443);
+            this.Controls.Add(this.btnCancelar);
+            this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.tbPrecio);
             this.Controls.Add(this.tbUrlImagen);
             this.Controls.Add(this.tbIdCategoria);
@@ -245,5 +269,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.TextBox tbIdCategoria;
         private System.Windows.Forms.TextBox tbUrlImagen;
         private System.Windows.Forms.TextBox tbPrecio;
+        private System.Windows.Forms.Button btnAceptar;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }

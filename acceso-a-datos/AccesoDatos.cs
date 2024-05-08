@@ -44,6 +44,11 @@ namespace acceso_a_datos
                 throw ex;
             }
         }
+
+        public void SetearParametro(string nombre, object valor)
+        {
+            comando.Parameters.AddWithValue(nombre,valor);
+        }
         public void CerrarConexion()
         {
             if (lector != null)

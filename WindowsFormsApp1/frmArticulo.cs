@@ -23,5 +23,11 @@ namespace WindowsFormsApp1
             NegocioArticulo negocio = new NegocioArticulo();
             dgv_articulo.DataSource = negocio.Listar();
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmAgregarArticulos ventana = new frmAgregarArticulos();
+            ventana.ShowDialog();
+        }
     }
 }
