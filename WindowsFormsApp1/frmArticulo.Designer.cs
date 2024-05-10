@@ -31,6 +31,8 @@ namespace WindowsFormsApp1
         {
             this.dgv_articulo = new System.Windows.Forms.DataGridView();
             this.btnAgregar = new System.Windows.Forms.Button();
+            this.cmbMarca = new System.Windows.Forms.ComboBox();
+            this.cmbCategoria = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_articulo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,6 +43,7 @@ namespace WindowsFormsApp1
             this.dgv_articulo.Name = "dgv_articulo";
             this.dgv_articulo.Size = new System.Drawing.Size(543, 263);
             this.dgv_articulo.TabIndex = 0;
+            this.dgv_articulo.SelectionChanged += new System.EventHandler(this.dgv_articulo_SelectionChanged);
             // 
             // btnAgregar
             // 
@@ -52,11 +55,28 @@ namespace WindowsFormsApp1
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
+            // cmbMarca
+            // 
+            this.cmbMarca.FormattingEnabled = true;
+            this.cmbMarca.Location = new System.Drawing.Point(603, 73);
+            this.cmbMarca.Name = "cmbMarca";
+            this.cmbMarca.Size = new System.Drawing.Size(121, 21);
+            this.cmbMarca.TabIndex = 2;            // 
+            // cmbCategoria
+            // 
+            this.cmbCategoria.FormattingEnabled = true;
+            this.cmbCategoria.Location = new System.Drawing.Point(744, 73);
+            this.cmbCategoria.Name = "cmbCategoria";
+            this.cmbCategoria.Size = new System.Drawing.Size(121, 21);
+            this.cmbCategoria.TabIndex = 3;
+            // 
             // Catalogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(877, 402);
+            this.Controls.Add(this.cmbCategoria);
+            this.Controls.Add(this.cmbMarca);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.dgv_articulo);
             this.Name = "Catalogo";
@@ -71,6 +91,8 @@ namespace WindowsFormsApp1
 
         private System.Windows.Forms.DataGridView dgv_articulo;
         private System.Windows.Forms.Button btnAgregar;
+        private System.Windows.Forms.ComboBox cmbMarca;
+        private System.Windows.Forms.ComboBox cmbCategoria;
     }
 }
 
