@@ -39,8 +39,10 @@ namespace WindowsFormsApp1
             // dgv_articulo
             // 
             this.dgv_articulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_articulo.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgv_articulo.Location = new System.Drawing.Point(41, 73);
             this.dgv_articulo.Name = "dgv_articulo";
+            this.dgv_articulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_articulo.Size = new System.Drawing.Size(543, 263);
             this.dgv_articulo.TabIndex = 0;
             this.dgv_articulo.SelectionChanged += new System.EventHandler(this.dgv_articulo_SelectionChanged);
@@ -61,7 +63,8 @@ namespace WindowsFormsApp1
             this.cmbMarca.Location = new System.Drawing.Point(603, 73);
             this.cmbMarca.Name = "cmbMarca";
             this.cmbMarca.Size = new System.Drawing.Size(121, 21);
-            this.cmbMarca.TabIndex = 2;            // 
+            this.cmbMarca.TabIndex = 2;
+            // 
             // cmbCategoria
             // 
             this.cmbCategoria.FormattingEnabled = true;
