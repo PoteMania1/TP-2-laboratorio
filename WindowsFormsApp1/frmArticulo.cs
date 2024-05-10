@@ -17,6 +17,7 @@ namespace WindowsFormsApp1
         private List<Articulo> listaArticulos = new List<Articulo>();
         private List<Marca> listaMarcas = new List<Marca>();
         private List<Categoria> listaCategorias = new List<Categoria>();
+        private List<UrlImagen> listaUrlImagen = new List<UrlImagen>();
         private Articulo seleccionado = new Articulo();
         public Catalogo()
         {
@@ -29,9 +30,11 @@ namespace WindowsFormsApp1
             NegocioMarca negocioMarca = new NegocioMarca();
             NegocioArticulo negocioArticulo = new NegocioArticulo();
             NegocioCategoria negocioCategoria = new NegocioCategoria();
+            NegocioUrlImagen negocioUrlImagen = new NegocioUrlImagen();
             listaArticulos = negocioArticulo.Listar();
             listaMarcas = negocioMarca.Listar(); 
             listaCategorias = negocioCategoria.Listar();
+            listaUrlImagen = negocioUrlImagen.Listar();
             dgv_articulo.DataSource = listaArticulos;
             dgv_articulo.Rows[0].Selected = true;
             LlenarComboBox();
@@ -41,15 +44,44 @@ namespace WindowsFormsApp1
 
         private void SeleccionAutomatica()
         {
-            //dgv_articulo.DataSource = listaArticulos;
-            //dgv_articulo.Rows[0].Selected = true;
-            //dataGridView1_SelectionChanged(dgv_articulo, EventArgs.Empty);
+            
             if (dgv_articulo.SelectedRows.Count > 0)
             {
                 int idMarcaSeleccionada = Convert.ToInt32(dgv_articulo.SelectedRows[0].Cells["IdMarca"].Value);
                 int idCategoriaSeleccionada = Convert.ToInt32(dgv_articulo.SelectedRows[0].Cells["IdCategoria"].Value);
                 string descripcionMarca = listaMarcas.FirstOrDefault(m => m.Id == idMarcaSeleccionada)?.Descripcion;
                 string descripcionCategoria = listaCategorias.FirstOrDefault(m => m.Id == idCategoriaSeleccionada)?.Descripcion;
+                Articulo selected = (Articulo)dgv_articulo.CurrentRow.DataBoundItem;
+                //int idImagen = listaArticulos[indiceFilaSeleccionada].Id;
+                //UrlImagen imagen = listaUrlImagen.FirstOrDefault(img => img.Id == idImagen);
+
+                if (selected.IdMarca > 0)
+                {
+                    /*for (int i = 0; i < listaUrlImagen.Count; i++)
+                    {
+                        if (listaUrlImagen[i].ToString() == descripcionMarca)
+                        {
+                            //cmbMarca.SelectedIndex = i;
+                            pbxImagen.Load(listaUrlImagen[indiceFilaSeleccionada].Url); // Suponiendo que el campo Imagen contiene la imagen en formato Image
+                            break;
+                        }
+                    }*/
+                    foreach (var objeto in listaUrlImagen)
+                    {
+                        int segundoEntero = objeto.IdArticulo;
+
+                        if (segundoEntero == selected.IdMarca)
+                        {
+                            pbxImagen.Load(listaUrlImagen[selected.IdMarca].Url);
+                            break; 
+                        }
+                    }
+                }
+                else
+                {
+                    // Si no se encontró la imagen, puedes mostrar una imagen predeterminada o dejar el PictureBox vacío
+                    pbxImagen.Image = null;
+                }
 
                 // Si se encontró la descripción de la marca, selecciónala en el ComboBox
                 if (descripcionMarca != null)

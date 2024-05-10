@@ -33,7 +33,9 @@ namespace WindowsFormsApp1
             this.btnAgregar = new System.Windows.Forms.Button();
             this.cmbMarca = new System.Windows.Forms.ComboBox();
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
+            this.pbxImagen = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_articulo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxImagen)).BeginInit();
             this.SuspendLayout();
             // 
             // dgv_articulo
@@ -73,11 +75,21 @@ namespace WindowsFormsApp1
             this.cmbCategoria.Size = new System.Drawing.Size(121, 21);
             this.cmbCategoria.TabIndex = 3;
             // 
+            // pbxImagen
+            // 
+            this.pbxImagen.Location = new System.Drawing.Point(603, 116);
+            this.pbxImagen.Name = "pbxImagen";
+            this.pbxImagen.Size = new System.Drawing.Size(262, 220);
+            this.pbxImagen.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxImagen.TabIndex = 4;
+            this.pbxImagen.TabStop = false;
+            // 
             // Catalogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(877, 402);
+            this.Controls.Add(this.pbxImagen);
             this.Controls.Add(this.cmbCategoria);
             this.Controls.Add(this.cmbMarca);
             this.Controls.Add(this.btnAgregar);
@@ -86,6 +98,7 @@ namespace WindowsFormsApp1
             this.Text = "Catalogo";
             this.Load += new System.EventHandler(this.Catalogo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_articulo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxImagen)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -96,6 +109,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.ComboBox cmbMarca;
         private System.Windows.Forms.ComboBox cmbCategoria;
+        private System.Windows.Forms.PictureBox pbxImagen;
     }
 }
 
