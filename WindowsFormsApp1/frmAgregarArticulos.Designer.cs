@@ -231,6 +231,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.lblID);
             this.Name = "frmAgregarArticulos";
             this.Text = "Agregar Articulo";
+            this.Load += new System.EventHandler(this.frmAgregarArticulos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbUrlImagen)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

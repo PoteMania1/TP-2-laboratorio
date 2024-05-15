@@ -42,5 +42,22 @@ namespace negocio
             }
 
         }
+        public void Agregar(UrlImagen nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.SetearConsulta("insert into IMAGENES values(@IdArticulo, @ImagenUrl)");
+                //datos.SetearParametro("@Id", nuevo.Id);
+                datos.SetearParametro("@IdArticulo", nuevo.IdArticulo);
+                datos.SetearParametro("@ImagenUrl", nuevo.Url);
+                datos.EjecutarLectura();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
     }
 }

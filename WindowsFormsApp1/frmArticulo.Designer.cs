@@ -34,6 +34,7 @@ namespace WindowsFormsApp1
             this.cmbMarca = new System.Windows.Forms.ComboBox();
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
             this.pbxImagen = new System.Windows.Forms.PictureBox();
+            this.btnModificar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_articulo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbxImagen)).BeginInit();
             this.SuspendLayout();
@@ -43,6 +44,7 @@ namespace WindowsFormsApp1
             this.dgv_articulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_articulo.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgv_articulo.Location = new System.Drawing.Point(41, 73);
+            this.dgv_articulo.MultiSelect = false;
             this.dgv_articulo.Name = "dgv_articulo";
             this.dgv_articulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgv_articulo.Size = new System.Drawing.Size(543, 263);
@@ -84,11 +86,21 @@ namespace WindowsFormsApp1
             this.pbxImagen.TabIndex = 4;
             this.pbxImagen.TabStop = false;
             // 
+            // btnModificar
+            // 
+            this.btnModificar.Location = new System.Drawing.Point(122, 358);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.TabIndex = 5;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            // 
             // Catalogo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(877, 402);
+            this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.pbxImagen);
             this.Controls.Add(this.cmbCategoria);
             this.Controls.Add(this.cmbMarca);
@@ -110,6 +122,7 @@ namespace WindowsFormsApp1
         private System.Windows.Forms.ComboBox cmbMarca;
         private System.Windows.Forms.ComboBox cmbCategoria;
         private System.Windows.Forms.PictureBox pbxImagen;
+        private System.Windows.Forms.Button btnModificar;
     }
 }
 
